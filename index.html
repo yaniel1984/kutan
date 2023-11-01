@@ -1,12 +1,52 @@
-<!DOCTYPE html><html lang="en"><head>
-  <meta charset="utf-8">
-  <title>KutanMenu</title>
-  <base href="/kutan">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="icon" type="image/x-icon" href="favicon.ico">
-<link rel="stylesheet" href="styles.ef46db3751d8e999.css"></head>
-<body>
-  <app-root></app-root>
-<script src="runtime.9a16ea8c1910c2f6.js" type="module"></script><script src="polyfills.f5882520c4bc680c.js" type="module"></script><script src="main.7f5ad35fe4ef21ce.js" type="module"></script>
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Bakery Menu</title>
+    <style>
+        .menu-item {
+            display: flex;
+            margin-bottom: 20px;
+        }
 
-</body></html>
+        .menu-item img {
+            max-width: 150px;
+            height: auto;
+            margin-right: 10px;
+        }
+
+        .menu-item-description {
+            flex: 1;
+        }
+    </style>
+</head>
+<body>
+    <h1>Bakery Menu</h1>
+
+    <div class="menu-item">
+        <img src="croissant.jpg" alt="Croissant">
+        <div class="menu-item-description">
+            <h2>Croissant</h2>
+            <p>Our flaky and buttery croissants are a perfect way to start your day. Made fresh every morning.</p>
+        </div>
+    </div>
+
+    <div class="menu-item">
+        <img src="muffin.jpg" alt="Blueberry Muffin">
+        <div class="menu-item-description">
+            <h2>Blueberry Muffin</h2>
+            <p>Our blueberry muffins are bursting with juicy blueberries and topped with a sweet streusel topping.</p>
+        </div>
+    </div>
+
+    <div class="menu-item">
+        <img src="cookie.jpg" alt="Chocolate Chip Cookie">
+        <div class="menu-item-description">
+            <h2>Chocolate Chip Cookie</h2>
+            <p>Indulge in our classic chocolate chip cookies, baked to perfection with a gooey center.</p>
+        </div>
+    </div>
+
+    <!-- Add more menu items as needed -->
+
+</body>
+</html>
